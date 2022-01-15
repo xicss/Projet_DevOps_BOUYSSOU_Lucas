@@ -16,7 +16,7 @@ data "template_file" "user_data" {
 provider "aws" {
   profile                 = "default"
   region                  = "us-east-2"
-  shared_credentials_file = "./credential"
+  shared_credentials_file = "./credentials"
 }
 
 resource "aws_instance" "app_server" {
@@ -38,6 +38,7 @@ resource "aws_instance" "app_server" {
 resource "aws_key_pair" "deployer" {
   key_name = "deployer-keys-bouyssou"
   public_key = file("./ssh/id_rsa.pub")
+
 
 
   ingress {
