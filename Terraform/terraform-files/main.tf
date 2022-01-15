@@ -36,12 +36,9 @@ resource "aws_instance" "app_server" {
 
 
 resource "aws_key_pair" "deployer" {
-  key_name = "deployer-key-bouyssou"
-  public_key = file("../ssh/id_rsa.pub")
-}
+  key_name = "deployer-keys-bouyssou"
+  public_key = file("./ssh/id_rsa.pub")
 
-resource "aws_security_group" "sg_default" {
-  name = "sg_default-bouyssou"
 
   ingress {
     from_port = 22
