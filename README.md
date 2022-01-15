@@ -23,12 +23,12 @@ skipping: no hosts matched
 
 PLAY RECAP *************
 
-est-ce que mon terraform et mon ansible sont lié ? probablement la connexion SSH qui n'aboutie pas avec mon compte deploy comme pour terraform.
+AWS instance Ynov down.  probablement la connexion SSH qui n'aboutie pas avec mon compte deploy comme pour terraform.
 
 
 
 
 
-Pour Résumer:  Projet beaucoup trop complexe lorsque meme pendant les cours les erreurs étaient corrigées par vous mais sans avoir d'éxplication si pourquoi elles arrivaient ces erreurs.
+Pour Résumer:  Projet trop complexe lorsque meme pendant les cours les erreurs étaient corrigées par vous  sans avoir d'explication du pourquoi elles arrivaient .
 
 Bonne correction !
